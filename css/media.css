@@ -1,0 +1,373 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	header {
+    	min-height: 300px;
+	}
+	.logo{
+		width: 75px;
+	}
+	.menu {
+    	margin-left: 95px;
+	}
+	.menu ul li a {
+   		padding: 3px 13px!important;
+	}
+	.d_search a {
+    	margin-bottom: 10px;
+    }
+    .d_search ul {
+	    top: 90%;
+    	left: -90px;
+    	min-width: 264px;
+	}
+	.l_button {
+	    width: 95px;
+	    height: 36px;
+	}
+	.t_content1 h1 {
+	    margin-top: 70px;
+	    font-size: 25px;
+	}
+	.t_content2 h2 {
+	    font-size: 14px;
+	}
+	.t_content3 ul li a {
+	    padding: 5px 12px;
+	    font-size: 15px;
+	    border-top-right-radius: 18px;
+	    border-top-left-radius: 18px;
+	    border-bottom-right-radius: 18px;
+	    border-bottom-left-radius: 18px;
+	}
+	.l_button {
+	    width: 100px;
+	    height: 35px;
+	    font-size: 13px;
+	}
+	/*header end*/
+	/*banner start*/
+	.b_content {
+    	margin-bottom: 0px;
+	}
+	.b_content img {
+    	margin-bottom: 30px;
+	}
+	.b_content h1 {
+    	font-size: 25px;
+	}
+	.b_single1 {
+    	margin-bottom: 35px;
+	}
+	.b_single2 {
+    	margin-bottom: 35px;
+	}
+	.b_single3 {
+    	margin-bottom: 35px;
+	}
+	/*banner end*/
+	/*banner1 start*/
+	.content_menu ul li {
+	    display: grid;
+	}
+	.box {
+    	margin: 5px auto;
+	}
+	/*banner1 start*/
+	.load_more ul{
+		margin-bottom: 40px;
+	}  
+	.load_more ul li a {
+    	padding: 10px 14px;
+	}
+	/*banner1 end*/
+	/*banner2 start*/
+	.ban2_content{
+		text-align: center;
+	}
+	.ban2_content h2 {
+    	font-size: 25px;
+	}
+	.ban2_content p {
+    	padding-right: 0px; 
+	}
+	.ban2_content ul li a {
+    	padding: 10px 14px;
+	}
+	/*banner2 end*/
+	/*banner3 start*/
+	.b_h1 h1 {
+    	font-size: 25px;
+	}
+	/*banner3 end*/
+	/*banner4 start*/
+	.logo1 {
+    margin-right: 0px;
+    padding: 8px;
+	}
+	/*banner4 end*/
+	/*blog start*/
+	.blog1 {
+    	text-align: center;
+	}
+	/*blog end*/
+	/*newsletter start*/
+	.news_email {
+    margin-right: 20px;
+    margin-left: 36px;
+	}
+	/*newsletter end*/
+	/*footer start*/
+	.f_1, .f_2 {
+    text-align: center;
+    margin: 50px auto;
+	}
+	.f_1, .f_2 {
+    text-align: center;
+	}
+	.f_2 .f_p1 {
+    	margin-left: 0px;
+	}
+	.f_2 ul {
+    	text-align: -webkit-center;
+	}
+	.f_2 ul li {
+    	text-align: -webkit-center;
+	}
+	.f_2 .f_h {
+    	margin-left: 0px;
+	}
+	.mail{
+		margin-left: 0px;
+	}
+	.mail ul li a {
+		margin-left: 55px;
+    	padding: 13px 16px;
+	}
+	.s_links ul li {
+    	margin-left: 0px;
+    	text-align: center;
+	}
+	/*footer end*/
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	header {
+    	min-height: 350px;
+	}
+	.menu ul li a {
+    	padding: 8px 13px!important;
+	}
+	.d_search a {
+    	margin-bottom: 10px;
+    }
+    .d_search ul {
+	    top: 90%;
+	    left: 2px;
+	    min-width: 325px;
+	}
+	.login ul {
+    	margin-top: 5px;
+	}
+	.t_content1 h1 {
+	    margin-top: 80px;
+	    font-size: 35px;
+	}
+	.t_content3 button {
+	    margin-bottom: 100px;
+	}
+	/*header end*/
+	/*banner start*/
+	.b_content h1 {
+    	font-size: 30px;
+	}
+	.b_single1 {
+    	margin-bottom: 35px;
+	}
+	.b_single2 {
+    	margin-bottom: 35px;
+	}
+	.b_single3 {
+    	margin-bottom: 35px;
+	}
+	/*banner end*/
+	/*banner1 start*/
+	.load_more ul{
+		margin-bottom: 60px;
+	}  
+	/*banner1 end*/
+	/*banner2 start*/
+	.ban2_content{
+		text-align: center;
+	}
+	.ban2_content p {
+    	padding-right: 0px; 
+	}
+	/*banner2 end*/
+	/*banner4 start*/
+	.logo1 {
+    padding: 8px;
+	}
+	/*banner4 end*/
+	/*blog start*/
+	.blog1 {
+    	text-align: center;
+	}
+	/*blog end*/
+	/*footer start*/
+	.f_1, .f_2 {
+	    text-align: center;
+	    margin: 50px auto;
+	}
+	.f_2 .f_p1 {
+    	margin-left: 0px;
+	}
+	.f_2 ul li {
+    	text-align: -webkit-center;
+	}
+	.f_2 .f_h {
+    	margin-left: 0px;
+	}
+	.mail{
+		margin-left: 0px;
+	}
+	.mail ul li a {
+		margin-left: 165px;
+    	padding: 13px 16px;
+	}
+	.s_links ul li {
+    	margin-left: 0px;
+    	text-align: center;
+	}
+	/*footer end*/
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	header {
+    min-height: 390px;
+	}
+	.menu ul li a {
+    padding: 8px 14px!important;
+	}
+	.d_search a {
+    	margin-bottom: 10px;
+    }
+    .d_search ul {
+	    top: 90%;
+	    left: 2px;
+	    min-width: 325px;
+	}
+	.login ul {
+    	margin-top: 5px;
+	}
+	.t_content1 h1 {
+	    font-size: 35px;
+	}
+	.t_content3 ul {
+    	margin-bottom: 60px;
+	}
+	/*header end*/
+	/*banner start*/
+	.b_content h1{
+		font-size: 35px;
+	}
+	.b_single1 {
+    	margin-bottom: 40px;
+	}
+	.b_single2 {
+    	margin-bottom: 40px;
+	}
+	.b_single3 {
+    	margin-bottom: 40px;
+	}
+	/*banner end*/
+	/*banner1 start*/
+	.load_more ul{
+		margin-bottom: 60px;
+	}  
+	/*banner1 end*/
+	/*banner2 start*/
+	.ban2_content{
+		text-align: center;
+	}
+	.ban2_content p {
+   		 padding-right: 0px;
+	}
+	/*banner2 end*/
+	/*banner4 start*/
+	.logo1 {
+    	margin-right: 15px;
+	}
+	/*banner4 end*/
+	/*blog start*/
+	.blog1 {
+    	text-align: center;
+	}
+	/*blog end*/
+	/*footer start*/
+	.f_1, .f_2 {
+	    text-align: center;
+	    margin: 50px auto;
+	}
+	.f_2 .f_p1 {
+    	margin-left: 0px;
+	}
+	.f_2 ul li {
+    	text-align: -webkit-center;
+	}
+	.f_2 .f_h {
+    	margin-left: 0px;
+	}
+	.mail{
+		margin-left: 0px;
+	}
+	.mail ul li a {
+		margin-left: 222px;
+    	padding: 13px 50px;
+	}
+	.s_link{
+		text-align: center;
+	}
+	.s_links ul li {
+    	margin-left: 0px;
+    	text-align: center;
+	}
+	/*footer end*/	
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*title start*/
+	
+	/*title end*/
+	/*banner start*/
+	.b_content h1{
+		font-size: 35px;
+	}
+	/*banner end*/
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*banner start*/
+	.b_content h1{
+		font-size: 35px;
+	}
+	/*banner end*/
+}
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width:1599.98px) {
+	/*banner start*/
+	.b_content h1{
+		font-size: 35px;
+	}
+	/*banner end*/
+}
+/* custom devices (landscape phones, 1600px and up) */
+@media(min-width:1600px) and (max-width:1799.98px){}
+/* Custom devices (landscape phones, 1800px and up) */
+@media(min-width:1800px) {}
+
+
+
