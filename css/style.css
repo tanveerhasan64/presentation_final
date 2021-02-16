@@ -552,15 +552,27 @@ header{
     font-size: 29px;
 }
 .s_links .fb{
+	color: white ;
+}
+.s_links .fb:hover{
 	color: #347cd2;
 }
 .s_links .tw{
+	color: white;
+}
+.s_links .tw:hover{
 	color: #1ec4ff;
 }
 .s_links .g_p{
+	color: white;
+}
+.s_links .g_p:hover{
 	color: #ff4032;
 }
 .s_links .dr{
+	color: white;
+}
+.s_links .dr:hover{
 	color: #ff3298;
 }
 /*footer end*/
